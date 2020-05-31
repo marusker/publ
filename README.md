@@ -15,13 +15,13 @@ import (
 )
 
 func init(){
-  #give a path of public folder in func init()
-  #all descendant folders will also be public.
+  //give a path of public folder in func init()
+  //all descendant folders will also be public.
   publ.SetFolder("./public")
 }
 
 func main() {
-  #need to be activated once
+  //need to be activated once
   publ.Activate()
   http.ListenAndServe(":8080", nil)
 }
