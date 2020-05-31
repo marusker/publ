@@ -28,7 +28,7 @@ func main() {
 
 ```
 
-## For gorilla mux:
+## gorilla mux sample
 
 It can be used for [gorilla mux](https://github.com/gorilla/mux) too.
 
