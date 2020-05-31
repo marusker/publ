@@ -1,12 +1,14 @@
 `publ` generates root path urls to the files at the designated folder in golang web app. It also generates the urls to the files in descendant folders.
 
+## Installation
+
 ```bash
 go get -u github.com/marusker/publi
 ```
 
-Sample usage:
+## Sample usage(net/http)
 
-```bash
+```go
 import (
   "github.com/marusker/publ"
   "net/http"
@@ -26,9 +28,9 @@ func main() {
 
 ```
 
-For [gorilla mux](https://github.com/gorilla/mux):
+## For [gorilla mux](https://github.com/gorilla/mux):
 
-```bash
+```go
 import (
   "github.com/gorilla/mux"
   "github.com/marusker/publ"
