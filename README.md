@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-go get -u github.com/marusker/publi
+go get github.com/marusker/publi
 ```
 
 ## Sample usage(net/http)
@@ -28,7 +28,9 @@ func main() {
 
 ```
 
-## For [gorilla mux](https://github.com/gorilla/mux):
+## For gorilla mux:
+
+It can be used for [gorilla mux](https://github.com/gorilla/mux) too.
 
 ```go
 import (
