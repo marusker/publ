@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-go get github.com/marusker/publi
+go get github.com/marusker/publ
 ```
 
 ## Sample usage(net/http)
